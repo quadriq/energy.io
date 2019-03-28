@@ -6,7 +6,7 @@ App to track your energy, water, gas or whatever consumptions.
 
 ### Data
 
-data could be exported in `CSV` format. The link consists of a date in format `YEAR-MONTH-DAY` and a value, separated by `TAB`
+data could be exported in `CSV` format. The link consists of a `date` in format __`YEAR-MONTH-DAY`__ and a `value`, separated by `TAB`
 ```
 2011-01-25 6556
 2011-01-28 6700
