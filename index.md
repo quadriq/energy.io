@@ -6,10 +6,10 @@ App to track your energy, water, gas or whatever consumptions.
 
 ### Data
 
-data could be exported in `CSV` format. The link consists of a `date` in format __`YEAR-MONTH-DAY`__ and a `value`, separated by `TAB`
+data could be exported in `CSV` format. Each line consists of a `date` in format __`YEAR-MONTH-DAY`__ and a `value`, separated by `TAB` (or `\t`)
 ```
-2011-01-25 6556
-2011-01-28 6700
+2011-01-25 6556.0
+2011-01-28 6700.2
 ```
 
 to import use the same format.
@@ -39,6 +39,19 @@ You can backup your meters with all data, and later import it. The data in backu
 }
 ```
 
+### Autosync
+
+You can activate `Autosync` functionality in the "Edit Meter" view. Autosync is perfomed each time you add/remove data.
+
+> autosync is PREMIUM feature
+
+
+### Google Drive
+
+The app has integration with Google Drive to import/export data, backup or autync data. Autosync-files using `JSON` format same as for backups.
+
+> This is PREMIUM feature
+
 # Privacy Policy
 
 Quadriq Apps built the Energy Tracker app as a Free app. This SERVICE is provided by Quadriq Apps at no cost and is intended for use as is.
@@ -58,6 +71,7 @@ The app does use third party services that may collect information used to ident
 Link to privacy policy of third party service providers used by the app
 
 *   [Google Play Services](https://www.google.com/policies/privacy/)
+*   [AdMob](https://support.google.com/admob/answer/6128543?hl=en)
 
 **Log Data**
 
