@@ -2,10 +2,22 @@
 
 App to track your energy, water, gas or whatever consumptions.
 
-## Backup
+## Import / Export
 
-You can backup your meters with all entries using `backup` function in the Meter-List view. The data in backup is saved in JSON format.
-The format of the date is always `YEAR-MONTH-DAY`
+### Data
+
+data could be exported in `CSV` format. The linke consists of a date in format `YEAR-MONTH-DAY` and a value, separated by `TAB`
+```
+2011-01-25 6556
+2011-01-28 6700
+```
+
+to import use the same format.
+
+
+### Backup
+
+You can backup your meters with all data, and later import it. The data in backup is saved in `JSON` format and contains both, meter details and all data.
 
 ```
 {
