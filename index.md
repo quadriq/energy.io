@@ -9,15 +9,15 @@ App to track your energy, water, gas or whatever consumptions.
 data could be exported in `CSV` format. Each line consists of a `date` in format __`YEAR-MONTH-DAY`__ OR __`YEAR-MONTH-DAY HH:MM`__ and a `value`, separated by `TAB`
 
 ```
-2011-01-25 6556.0
-2011-01-28 6700.2
+2011-01-25   6556.0
+2011-01-28   6700.2
 ```
 
 or
 
 ```
-2011-01-25 13:40 6556.0
-2011-01-28 14:21 6700.2
+2011-01-25 13:40   6556.0
+2011-01-28 14:21   6700.2
 ```
 
 to import use the same format.

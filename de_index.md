@@ -8,15 +8,15 @@ App um die Zählerstände zu protokolieren
 Daten können im `CSV`-format exportiert werden. Jede Zeile in der CSV-Datei besteht aus Datum __`JAHR-MONAT-TAG`__ oder __`JAHR-MONAT-TAG HH:MM`__ und dem Wert, getrent durch `TAB`
 
 ```
-2011-01-25 6556.0
-2011-01-28 6700.2
+2011-01-25   6556.0
+2011-01-28   6700.2
 ```
 
 or
 
 ```
-2011-01-25 13:40 6556.0
-2011-01-28 14:21 6700.2
+2011-01-25 13:40   6556.0
+2011-01-28 14:21   6700.2
 ```
 
 
