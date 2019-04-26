@@ -1,12 +1,11 @@
 # Energy Tracking App
 
-App to track your energy, water, gas or whatever consumptions.
-
+App um die Zählerstände zu protokolieren
 ## Import / Export
 
-### Data
+### Daten
 
-data could be exported in `CSV` format. Each line consists of a `date` in format __`YEAR-MONTH-DAY`__ OR __`YEAR-MONTH-DAY HH:MM`__ and a `value`, separated by `TAB`
+Daten können im `CSV`-format exportiert werden. Jede Zeile in der CSV-Datei besteht aus Datum __`JAHR-MONAT-TAG`__ oder __`JAHR-MONAT-TAG HH:MM`__ und dem Wert, getrent durch `TAB`
 
 ```
 2011-01-25 6556.0
@@ -20,12 +19,12 @@ or
 2011-01-28 14:21 6700.2
 ```
 
-to import use the same format.
 
+zum importieren benutzen Sie das gleiche Datenformat.
 
 ### Backup
 
-You can backup your meters with all data, and later import it. The data in backup is saved in `JSON` format and contains both, meter details and all data.
+Das Backup von jedem Zähler wird in `JSON`-Format gespeichert und hat sowohl Zähler-Deteils als auch alle Daten.
 
 ```
 {
@@ -47,18 +46,18 @@ You can backup your meters with all data, and later import it. The data in backu
 }
 ```
 
-### Autosync
+### Auto-Sync
 
-You can activate `Autosync` functionality in the "Edit Meter" view. Autosync is perfomed each time you add/remove data. Autosync-files using `JSON` format same as for backups.
+Das `Auto-Sync` kann in _Zähler-Editieren-Ansicht_ aktiviert werden. Das Synchronisieren wird jedes mal beim Hinzufügen/Editieren/Löschen von Zählerständen durchgeführt.
 
-> autosync is PREMIUM feature
+> auto-sync gibt's im PREMIUM PASS
 
 
 ### Google Drive
 
-The app has integration with Google Drive to import/export data, backup or autync data.
+Die app kann mit Google Drive zum Importieren bzw. Exportieren von Daten verwendet werden. Dabei muss man sich mit seinem Google-Konto autorisieren.
 
-> This is PREMIUM feature
+> Google Drive Integration gibt's im PREMIUM PASS
 
 # Privacy Policy
 
